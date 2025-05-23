@@ -1,40 +1,373 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-    <meta charset="utf-8" />
-    <title>Star Rating</title>
-    <meta name="viewport" 
-          content="width=device-width, 
-                   initial-scale=1" />
-    <link rel="stylesheet" 
-          href="styles.css" />
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- SETUP BOOTSTAP: LINK TO BOOTSTRAP -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+	<!-- LINK TO JS -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+	<!-- FONT EMBED -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+	<!-- ADD STYLE -->
+	<link rel="stylesheet" type="text/css" href="home.css">
+
+	<title>ICT Q4 Project</title>
 </head>
-
 <body>
-    <div class="card">
-        <h1>JavaScript Star Rating</h1>
-        <br />
-        <span onclick="gfg(1)" 
-              class="star">★
-        </span>
-        <span onclick="gfg(2)" 
-              class="star">★
-        </span>
-        <span onclick="gfg(3)" 
-              class="star">★
-        </span>
-        <span onclick="gfg(4)" 
-              class="star">★
-        </span>
-        <span onclick="gfg(5)" 
-              class="star">★
-        </span>
-        <h3 id="output">
-              Rating is: 0/5
-          </h3>
-    </div>
-    <script src="script.js"></script>
-</body>
 
+	<!-- GONZALES -->
+
+	<!-- NAV BAR (VER1: OLMEDO, FINALVER: GONZALES)-->
+	<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+  		<div class="container-fluid">
+		    <img src="https://pngimg.com/d/ruby_PNG47.png" alt="Logo" class="rounded-pill">
+		    <a class="navbar-brand" href="home.html"></a>
+
+		    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+		      <span class="navbar-toggler-icon"></span>
+		    </button>
+
+	    	<div class="collapse navbar-collapse" id="mynavbar">
+	      		
+	      		<ul class="navbar-nav me-auto">
+			        
+			        <li class="nav-item">
+			          <a class="nav-link" href="index.html">Home</a>
+			        </li>
+			        
+			        <li class="nav-item dropdown">
+			  			<a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown">Quarters</a>
+			  			<ul class="dropdown-menu">
+			    			<li><a class="dropdown-item" href="first.html">1st Quarter</a></li>
+			    			<li><a class="dropdown-item" href="second.html">2nd Quarter</a></li>
+			    			<li><a class="dropdown-item" href="third.html">3rd Quarter</a></li>
+			    			<li><a class="dropdown-item" href="fourth.html">4th Quarter</a></li>
+			  			</ul>
+					</li>
+
+			        <li class="nav-item">
+			          <a class="nav-link" href="next.html">What's Next?</a>
+			        </li>
+
+			        <li class="nav-item">
+			          <a class="nav-link" href="rate.html">Rate Our Portfolio!</a>
+			        </li>
+	      		</ul>
+	      
+	      		<form class="d-flex">
+			        <input class="form-control me-2" type="text" placeholder="Search">
+			        <button class="btn btn-danger" type="button">Search</button>
+		      	</form>
+	    	</div>
+  		</div>
+	</nav>
+
+
+<div class="container mt-5">
+  <h2 class="text-center mb-4">Rate Us</h2>
+
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs justify-content-center" role="tablist">
+    <li class="nav-item">
+      <a class="nav-link active" data-bs-toggle="tab" href="#zipporah">Zipporah Ala</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-bs-toggle="tab" href="#shalanie">Shalanie Garabiles</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-bs-toggle="tab" href="#amanda">Amanda Gonzales</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-bs-toggle="tab" href="#bryce">Bryce Ong</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-bs-toggle="tab" href="#cerrine">Cerrine Olmedo</a>
+    </li>
+  </ul>
+
+  <div class="tab-content p-3 border border-top-0">
+      
+    <div id="zipporah" class="tab-pane fade show active" role="tabpanel">
+      <div class="p-3 border rounded" style="max-height: 400px; overflow-y: auto;">
+        <h4>Aesthetics and Design</h4>
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th>Criteria</th>
+              <th>Rating</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Color Scheme</td>
+              <td>[Rating]</td>
+            </tr>
+            <tr>
+              <td>Layout</td>
+              <td>[Rating]</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h4>Code and Functionality</h4>
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th>Feature</th>
+              <th>Rating</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Responsiveness</td>
+              <td>[Rating]</td>
+            </tr>
+            <tr>
+              <td>Error Handling</td>
+              <td>[Rating]</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h4>Comments and Feedback</h4>
+        <form>
+          <div class="mb-3">
+            <textarea class="form-control" rows="3" placeholder="Write your feedback here..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </div>
+
+    <div id="shalanie" class="tab-pane fade" role="tabpanel">
+           <div class="p-3 border rounded" style="max-height: 400px; overflow-y: auto;">
+        <h4>Aesthetics and Design</h4>
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th>Criteria</th>
+              <th>Rating</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Color Scheme</td>
+              <td>[Rating]</td>
+            </tr>
+            <tr>
+              <td>Layout</td>
+              <td>[Rating]</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h4>Code and Functionality</h4>
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th>Feature</th>
+              <th>Rating</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Responsiveness</td>
+              <td>[Rating]</td>
+            </tr>
+            <tr>
+              <td>Error Handling</td>
+              <td>[Rating]</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h4>Comments and Feedback</h4>
+        <form>
+          <div class="mb-3">
+            <textarea class="form-control" rows="3" placeholder="Write your feedback here..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Amanda -->
+    <div id="amanda" class="tab-pane fade" role="tabpanel">
+           <div class="p-3 border rounded" style="max-height: 400px; overflow-y: auto;">
+        <h4>Aesthetics and Design</h4>
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th>Criteria</th>
+              <th>Rating</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Color Scheme</td>
+              <td>[Rating]</td>
+            </tr>
+            <tr>
+              <td>Layout</td>
+              <td>[Rating]</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h4>Code and Functionality</h4>
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th>Feature</th>
+              <th>Rating</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Responsiveness</td>
+              <td>[Rating]</td>
+            </tr>
+            <tr>
+              <td>Error Handling</td>
+              <td>[Rating]</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h4>Comments and Feedback</h4>
+        <form>
+          <div class="mb-3">
+            <textarea class="form-control" rows="3" placeholder="Write your feedback here..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Bryce -->
+    <div id="bryce" class="tab-pane fade" role="tabpanel">
+          <div class="p-3 border rounded" style="max-height: 400px; overflow-y: auto;">
+        <h4>Aesthetics and Design</h4>
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th>Criteria</th>
+              <th>Rating</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Color Scheme</td>
+              <td>[Rating]</td>
+            </tr>
+            <tr>
+              <td>Layout</td>
+              <td>[Rating]</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h4>Code and Functionality</h4>
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th>Feature</th>
+              <th>Rating</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Responsiveness</td>
+              <td>[Rating]</td>
+            </tr>
+            <tr>
+              <td>Error Handling</td>
+              <td>[Rating]</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h4>Comments and Feedback</h4>
+        <form>
+          <div class="mb-3">
+            <textarea class="form-control" rows="3" placeholder="Write your feedback here..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Cerrine -->
+    <div id="cerrine" class="tab-pane fade" role="tabpanel">
+          <div class="p-3 border rounded" style="max-height: 400px; overflow-y: auto;">
+        <h4>Aesthetics and Design</h4>
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th>Criteria</th>
+              <th>Rating</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Color Scheme</td>
+              <td>[Rating]</td>
+            </tr>
+            <tr>
+              <td>Layout</td>
+              <td>[Rating]</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h4>Code and Functionality</h4>
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th>Feature</th>
+              <th>Rating</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Responsiveness</td>
+              <td>[Rating]</td>
+            </tr>
+            <tr>
+              <td>Error Handling</td>
+              <td>[Rating]</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h4>Comments and Feedback</h4>
+        <form>
+          <div class="mb-3">
+            <textarea class="form-control" rows="3" placeholder="Write your feedback here..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+</div>
+
+
+				<br>
+				
+				<div class="d-grid">
+					<button class="btn btn-outline-light btn-block" type="button">Submit</button>
+				</div>
+			</div>
+			<h2 style="text-align: center;">&#169; Group 2 | 9-Ruby</h2>
+		</div>
+		<script src="home.js"></script>
+	</div>			
+
+</body>
 </html>
