@@ -1,1 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Flip Card Layout</title>
+  <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="exclusive-container">
+  <div class="wrapper">
+    <h2>Project (3rd Quarter)</h2>
+
+    <button onclick="showDesc()">[See Description]</button>
+
+    <p id="desc" style="display: none; color: white; margin-top: 15px;">
+      This website aims to help users navigate fare information for the LRT or MRT lines in Metro Manila using the lessons learned during 3rd Quarter.
+    </p>
+  </div>
+</div>
+
+
+
+
+
+  <div class="wrapper">
+    <div class="card-container">
+
+      <!-- Card 1 -->
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="https://i.pinimg.com/736x/f8/c8/e4/f8c8e4250412fe5293acc4a05967d049.jpg">
+          </div>
+          <div class="flip-card-back">
+            <h1>Amanda Gonzales</h1>
+            <p>Architect & Engineer</p>
+            <p>We love that guy</p>
+            <a href="https://example.com/john" class="card-button" target="_blank">Visit</a>
+          </div>
+        </div>
+      </div>
+
+  <!-- card 2 -->
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="https://i.pinimg.com/736x/1c/a0/cd/1ca0cddd2db537d294c9f86a8a20c8b6.jpg">
+          </div>
+          <div class="flip-card-back">
+            <h1>Shalanie Garabiles</h1>
+            <p>Designer</p>
+            <p>Creative soul</p>
+            <a href="https://sgarabiles-9r.github.io/Q3-PROJECT/" class="card-button" target="_blank">Portfolio</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- card 3 -->
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="https://i.pinimg.com/736x/41/43/7a/41437a74951bc4a985a241cc8f256cad.jpg">
+          </div>
+          <div class="flip-card-back">
+            <h1>Zipporah Ala</h1>
+            <p>V</p>
+            <p>Moonwalker</p>
+            <a href="https://example.com/elon" class="card-button" target="_blank">Explore</a>
+          </div>
+        </div>
+      </div>
+
+<!-- card 4 -->
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="https://i.pinimg.com/736x/c4/4e/cf/c44ecff40e11dc62286765556029cac4.jpg">
+          </div>
+          <div class="flip-card-back">
+            <h1>Cerrine Olmedo</h1>
+            <p>Developer</p>
+            <p>Code whisperer</p>
+            <a href="https://colmedo-9r.github.io/Q3-PROJECT/" class="card-button" target="_blank">GitHub</a>
+          </div>
+        </div>
+      </div>
+
+<!-- 5 -->
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="https://i.pinimg.com/736x/d9/57/13/d95713a8c1f15fd20173ffe07948ab59.jpg">
+          </div>
+          <div class="flip-card-back">
+            <h1>Bryce Ong</h1>
+            <p>Writer</p>
+            <p>Dream crafter</p>
+            <a href="https://example.com/lea" class="card-button" target="_blank">Read More</a>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+
+
+
+  <script>
+  function showDesc() {
+    document.getElementById("desc").style.display = "block";
+  }
+</script>
+
+
+
+</body>
+</html>
 
