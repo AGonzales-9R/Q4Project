@@ -1,52 +1,102 @@
-/* style.css */
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+.heather {
+	padding: 60px;
+	text-align: center;
+	background: #880315;
+	color: white;
+	font-size: 30px;
 }
+
+.grp {
+	font-size: 40px;
+}
+
+.meet {
+	font-size: 50px;
+	text-align: center;
+}
+
 
 body {
-  min-height: 50vh;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
-  background: hsl(137, 46%, 24%);
-  font-family: "Poppins", sans-serif;
+  background: #f8f9fa;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #343a40;
 }
 
-.card {
-  max-width: 33rem;
-  background: #fff;
-  margin: 0 1rem;
-  padding: 1rem;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-  width: 100%;
+h2, h4 {
+  font-weight: bold;
+  color: #333;
+}
+
+/* Tabs */
+.nav-tabs .nav-link {
+  border: none;
+  color: #6c757d;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.nav-tabs .nav-link:hover {
+  color: #0d6efd;
+}
+
+.nav-tabs .nav-link.active {
+  background-color: #fff;
+  border-bottom: 3px solid #0d6efd;
+  color: #0d6efd;
+}
+
+.table {
+  background-color: white;
+  margin-bottom: 2rem;
+}
+
+.table th {
+  background-color: #e9ecef;
+  color: #495057;
+  font-weight: 600;
+}
+
+.table td input[type="radio"] {
+  transform: scale(1.2);
+}
+
+/* Forms */
+textarea.form-control {
   border-radius: 0.5rem;
+  resize: none;
+  border-color: #ced4da;
 }
 
-.star {
-  font-size: 10vh;
-  cursor: pointer;
+textarea.form-control:focus {
+  box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.25);
+  border-color: #0d6efd;
 }
 
-.one {
-  color: rgb(255, 0, 0);
+/* Button */
+button[type="submit"] {
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  background-color: #0d6efd;
+  border: none;
 }
 
-.two {
-  color: rgb(255, 106, 0);
+button[type="submit"]:hover {
+  background-color: #0b5ed7;
 }
 
-.three {
-  color: rgb(251, 255, 120);
-}
+/* Responsiveness */
+@media (max-width: 576px) {
+  .table th, .table td {
+    font-size: 0.85rem;
+    padding: 0.4rem;
+  }
 
-.four {
-  color: rgb(255, 255, 0);
-}
+  h2 {
+    font-size: 1.5rem;
+  }
 
-.five {
-  color: rgb(24, 159, 14);
+  h4 {
+    font-size: 1.2rem;
+  }
 }
