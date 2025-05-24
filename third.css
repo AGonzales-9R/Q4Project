@@ -104,3 +104,22 @@ body {
   background-color: #fff0f0;
   color: #8b0000;
 }
+
+
+/* Header styling */
+.heather {
+	padding: 60px;
+	text-align: center;
+	background: #880315;
+	color: white;
+	font-size: 30px;
+}
+
+.grp {
+	font-size: 40px;
+}
+
+.meet {
+	font-size: 50px;
+	text-align: center;
+}
