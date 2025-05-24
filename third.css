@@ -2,6 +2,24 @@
   box-sizing: border-box;
 
 }
+
+/* Header styling */
+.heather {
+	padding: 60px;
+	text-align: center;
+	background: #880315;
+	color: white;
+	font-size: 30px;
+}
+
+.grp {
+	font-size: 40px;
+}
+
+.meet {
+	font-size: 50px;
+	text-align: center;
+}
 body {
   margin: 0;
   background: #f0f0f0;
@@ -106,20 +124,4 @@ body {
 }
 
 
-/* Header styling */
-.heather {
-	padding: 60px;
-	text-align: center;
-	background: #880315;
-	color: white;
-	font-size: 30px;
-}
 
-.grp {
-	font-size: 40px;
-}
-
-.meet {
-	font-size: 50px;
-	text-align: center;
-}
