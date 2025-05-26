@@ -1,106 +1,39 @@
+/* GONZALES */
 * {
-  box-sizing: border-box;
 
 }
+
 body {
-  margin: 0;
-  background: #f0f0f0;
-  font-family: 'Patrick Hand', cursive;
+  font-family: "Sour Gummy", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+  "wdth" 100;
+  overflow-x: hidden;
 }
 
-.exclusive-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  padding: 20px;
-}
-
-.wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 40px 20px;
-  background-color: darkred;
-  border-radius: 5px;
-}
-
-.card-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 30px;
-}
-
-.flip-card {
-  background-color: transparent;
-  width: 240px;
-  height: 336px;
-  perspective: 1000px;
-}
-
-.flip-card-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  transition: transform 0.8s;
-  transform-style: preserve-3d;
-  border-radius: 15px;
-}
-
-.flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
-}
-
-.flip-card-front, .flip-card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  backface-visibility: hidden;
-  border-radius: 15px;
-  overflow: hidden;
-}
-
-.flip-card-front img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.flip-card-back {
-  background-color: #b22222;
-  color: white;
-  transform: rotateY(180deg);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
+h1 {
+  font-size: 50px;
   text-align: center;
 }
 
-.flip-card-back h1 {
-  margin: 0;
-  font-size: 1.5rem;
+label {
+  font-size: 20px;
 }
 
-.flip-card-back p {
-  margin: 10px 0;
-  font-size: 1.1rem;
+.rounded-pill {
+  width: 2%;
 }
 
-.card-button {
-  margin-top: 15px;
-  padding: 10px 20px;
-  background-color: white;
-  color: #b22222;
-  text-decoration: none;
-  font-weight: bold;
-  border-radius: 8px;
-  transition: background-color 0.3s, color 0.3s;
+.container {
+  background-color: #af0515;
+  color: white;
 }
 
-.card-button:hover {
-  background-color: #fff0f0;
-  color: #8b0000;
+.container-fluid-mt-5 {
+  margin-top: 120px;
+  background-color: #880315;
+  color: white;
+  text-align: justify;
 }
