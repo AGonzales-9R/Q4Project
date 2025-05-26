@@ -18,6 +18,11 @@ h1 {
 	text-align: center;
 }
 
+h2 {
+	font-size: 50px;
+	text-align: center;
+}
+
 form {
 	text-align: center;
 }
@@ -33,15 +38,11 @@ form {
   	padding: 30px;
   	margin: 30px;
   	border-radius: 25px;
+  	text-align: center;
 }
 
 .grp {
 	font-size: 40px;
-}
-
-.goal {
-	font-size: 55px;
-	text-align: center;
 }
 
 .cards {
@@ -111,4 +112,5 @@ form {
 	background-color: #880315;
 	color: white;
 	text-align: justify;
+	padding: 20px;
 }
