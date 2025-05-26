@@ -129,3 +129,25 @@ form {
 	}
 }
 
+  .btn-cute {
+    background-color: #9b1c31; /* your red */
+    color: white;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-family: 'Sour Gummy', cursive;
+    font-weight: 700;
+    box-shadow: 0 4px 8px rgba(155, 28, 49, 0.5);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .btn-cute:hover {
+    background-color: #b72a3f;
+    box-shadow: 0 6px 12px rgba(183, 42, 63, 0.7);
+    color: #fff;
+    text-decoration: none;
+  }
+
+		width: 90%;
+	}
+}
+
