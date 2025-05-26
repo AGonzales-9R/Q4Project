@@ -1,0 +1,44 @@
+/*GONZALES*/
+* {
+
+}
+
+body {
+	font-family: "Sour Gummy", sans-serif;
+  	font-optical-sizing: auto;
+  	font-weight: <weight>;
+  	font-style: normal;
+  	font-variation-settings:
+    "wdth" 100;
+    overflow-x: hidden;
+    text-align: justify;
+}
+
+h1 {
+	font-size: 60px;
+	text-align: center;
+}
+
+a {
+	color: white;
+}
+
+.rounded-pill {
+	width: 2%;
+}
+
+.container {
+	background-color: #af0515;
+	color: white;
+}
+
+.ref {
+	font-size: 20px;
+}
+
+.container-fluid-mt-5 {
+	margin-top: 204px;
+	background-color: #880315;
+	color: white;
+	text-align: justify;
+}
