@@ -17,6 +17,10 @@ h1 {
 	font-size: 60px;
 }
 
+li {
+	font-size: 15px;
+}
+
 form {
 	text-align: center;
 }
@@ -52,14 +56,14 @@ form {
 
 .flip-card {
   	background-color: transparent;
-  	width: 350px;
+  	width: 280px;
   	height: 350px;
   	perspective: 1000px;
   	margin: 5px 0;
 }
 
 .profile {
-	width: 100%;
+	width: 80%;
 	padding-top: 30px;
 }
 
