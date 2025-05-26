@@ -16,13 +16,13 @@
 	<link href="https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
 	<!-- ADD STYLE -->
-	<link rel="stylesheet" type="text/css" href="home.css">
+	<link rel="stylesheet" type="text/css" href="rate.css">
 
 	<title>ICT Q4 Project</title>
 </head>
 <body>
 
-	<!-- GONZALES -->
+	<!-- GONZALES, GARABILES-->
 
 	<!-- NAV BAR (VER1: OLMEDO, FINALVER: GONZALES)-->
 	<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
@@ -59,6 +59,11 @@
 			        <li class="nav-item">
 			          <a class="nav-link" href="rate.html">Rate Our Portfolio!</a>
 			        </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="refs.html">References</a>
+              </li>
+
 	      		</ul>
 	      
 	      		<form class="d-flex">
@@ -69,48 +74,48 @@
   		</div>
 	</nav>
 
+  <br>
+  <br>
 
-  <div class="container mt-5">
-    <h2 class="text-center mb-4">Rate Us</h2>
+  <h1>Rate Our Portfolio!</h1>
 
-    <!-- Nav Tabs -->
-    <ul class="nav nav-tabs justify-content-center" role="tablist">
-      <li class="nav-item">
-        <button class="nav-link active" id="zipporah-tab" data-bs-toggle="tab" data-bs-target="#zipporah" type="button" role="tab" aria-controls="zipporah" aria-selected="true">
-          Zipporah Ala
-        </button>
-      </li>
-      <li class="nav-item">
-        <button class="nav-link" id="shalanie-tab" data-bs-toggle="tab" data-bs-target="#shalanie" type="button" role="tab" aria-controls="shalanie" aria-selected="false">
-          Shalanie Garabiles
-        </button>
-      </li>
-      <li class="nav-item">
-        <button class="nav-link" id="amanda-tab" data-bs-toggle="tab" data-bs-target="#amanda" type="button" role="tab" aria-controls="amanda" aria-selected="false">
-          Amanda Gonzales
-        </button>
-      </li>
-      <li class="nav-item">
-        <button class="nav-link" id="bryce-tab" data-bs-toggle="tab" data-bs-target="#bryce" type="button" role="tab" aria-controls="bryce" aria-selected="false">
-          Bryce Ong
-        </button>
-      </li>
-      <li class="nav-item">
-        <button class="nav-link" id="cerrine-tab" data-bs-toggle="tab" data-bs-target="#cerrine" type="button" role="tab" aria-controls="cerrine" aria-selected="false">
-          Cerrine Olmedo
-        </button>
-      </li>
-    </u>
+  <div class="container shadow rounded p-4 mb-4 mt-5">
+    
+    <form>
+      
+      <label>Your Name</label>
+      <input type="text" name="yourName" id="inputName" placeholder="Enter your name here" class="form-control">
 
-      <!-- Zipporah -->
-      <div class="tab-pane fade show active" id="zipporah" role="tabpanel" aria-labelledby="zipporah-tab">
-        <h4>Aesthetics and Design (Zipporah Ala)</h4>
-        <table class="table table-bordered text-center">
-          <thead>
-            <tr><th>Criteria</th><th colspan="5">Rating</th></tr>
-            <tr><th></th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th></tr>
-          </thead>
+      <label>Your Email</label>
+      <input type="email" name="yourEmail" id="inputEmail" placeholder="Enter your email here" class="form-control">
+
+      <br>
+
+      <h4>Aesthetics and Design</h4>
+
+      <table class="table table-bordered text-center">
+        
+        <thead>
+
+            <tr>
+
+              <th>Criteria</th><th colspan="5">Rating</th>
+
+            </tr>
+            
+            <tr>
+              <th></th>
+              <th>1</th>
+              <th>2</th>
+              <th>3</th>
+              <th>4</th>
+              <th>5</th>
+            </tr>
+
+        </thead>
+
           <tbody>
+            
             <tr><td>Color Scheme</td>
               <td><input type="radio" name="color_zipporah" value="1" required></td>
               <td><input type="radio" name="color_zipporah" value="2" required></td>
@@ -118,6 +123,7 @@
               <td><input type="radio" name="color_zipporah" value="4" required></td>
               <td><input type="radio" name="color_zipporah" value="5" required></td>
             </tr>
+            
             <tr><td>Typography</td>
               <td><input type="radio" name="typography_zipporah" value="1" required></td>
               <td><input type="radio" name="typography_zipporah" value="2" required></td>
@@ -125,15 +131,32 @@
               <td><input type="radio" name="typography_zipporah" value="4" required></td>
               <td><input type="radio" name="typography_zipporah" value="5" required></td>
             </tr>
+          
           </tbody>
+        
         </table>
 
-        <h4>Code and Functionality (Zipporah Ala)</h4>
+        <h4>Code and Functionality</h4>
+
         <table class="table table-bordered text-center">
+
           <thead>
-            <tr><th>Criteria</th><th colspan="5">Rating</th></tr>
-            <tr><th></th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th></tr>
+            <tr>
+              <th>Criteria</th>
+              <th colspan="5">Rating</th>
+            </tr>
+
+            <tr>
+              <th></th>
+              <th>1</th>
+              <th>2</th>
+              <th>3</th>
+              <th>4</th>
+              <th>5</th>
+            </tr>
+
           </thead>
+
           <tbody>
             <tr><td>Functionality</td>
               <td><input type="radio" name="functionality_zipporah" value="1" required></td>
@@ -142,6 +165,7 @@
               <td><input type="radio" name="functionality_zipporah" value="4" required></td>
               <td><input type="radio" name="functionality_zipporah" value="5" required></td>
             </tr>
+
             <tr><td>Responsiveness</td>
               <td><input type="radio" name="responsiveness_zipporah" value="1" required></td>
               <td><input type="radio" name="responsiveness_zipporah" value="2" required></td>
@@ -152,200 +176,51 @@
           </tbody>
         </table>
 
-        <h4>Comments and Feedback (Zipporah Ala)</h4>
-        <form>
+        <h4>Comments and Feedback</h4>
           <textarea class="form-control mb-3" placeholder="Enter your comments here..." rows="4" required></textarea>
-          <button class="btn btn-primary" type="submit">Submit</button>
-        </form>
+          <div class="d-grid">
+            <button class="btn btn-outline-light btn-block" onclick="submitForm()" type="button">Submit</button>
+          </div>
       </div>
 
-      <!-- Shalanie -->
-      <div class="tab-pane fade" id="shalanie" role="tabpanel" aria-labelledby="shalanie-tab">
-        <h4>Aesthetics and Design (Shalanie Garabiles)</h4>
-        <table class="table table-bordered text-center">
-          <thead>
-            <tr><th>Criteria</th><th colspan="5">Rating</th></tr>
-            <tr><th></th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th></tr>
-          </thead>
-          <tbody>
-            <tr><td>Color Scheme</td>
-              <td><input type="radio" name="color_shalanie" value="1" required></td>
-              <td><input type="radio" name="color_shalanie" value="2" required></td>
-              <td><input type="radio" name="color_shalanie" value="3" required></td>
-              <td><input type="radio" name="color_shalanie" value="4" required></td>
-              <td><input type="radio" name="color_shalanie" value="5" required></td>
-            </tr>
-            <tr><td>Typography</td>
-              <td><input type="radio" name="typography_shalanie" value="1" required></td>
-              <td><input type="radio" name="typography_shalanie" value="2" required></td>
-              <td><input type="radio" name="typography_shalanie" value="3" required></td>
-              <td><input type="radio" name="typography_shalanie" value="4" required></td>
-              <td><input type="radio" name="typography_shalanie" value="5" required></td>
-            </tr>
-          </tbody>
-        </table>
+    </form>
 
-        <h4>Code and Functionality (Shalanie Garabiles)</h4>
-        <table class="table table-bordered text-center">
-          <thead>
-            <tr><th>Criteria</th><th colspan="5">Rating</th></tr>
-            <tr><th></th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th></tr>
-          </thead>
-          <tbody>
-            <tr><td>Functionality</td>
-              <td><input type="radio" name="functionality_shalanie" value="1" required></td>
-              <td><input type="radio" name="functionality_shalanie" value="2" required></td>
-              <td><input type="radio" name="functionality_shalanie" value="3" required></td>
-              <td><input type="radio" name="functionality_shalanie" value="4" required></td>
-              <td><input type="radio" name="functionality_shalanie" value="5" required></td>
-            </tr>
-            <tr><td>Responsiveness</td>
-              <td><input type="radio" name="responsiveness_shalanie" value="1" required></td>
-              <td><input type="radio" name="responsiveness_shalanie" value="2" required></td>
-              <td><input type="radio" name="responsiveness_shalanie" value="3" required></td>
-              <td><input type="radio" name="responsiveness_shalanie" value="4" required></td>
-              <td><input type="radio" name="responsiveness_shalanie" value="5" required></td>
-            </tr>
-          </tbody>
-        </table>
+  </div>
 
-        <h4>Comments and Feedback (Shalanie Garabiles)</h4>
-        <form>
-          <textarea class="form-control mb-3" placeholder="Enter your comments here..." rows="4" required></textarea>
-          <button class="btn btn-primary" type="submit">Submit</button>
-        </form>
+  <!-- FOOTER (GONZALES)-->
+  <div class="container-fluid-mt-5">
+    <div class="row">
+      <div class="col-md-4 mt-3 mb-3">
+        <h2>Group Members:</h2>
+        <h4>Zipporah Ala</h4>
+        <h4>Shalanie Garabiles</h4>
+        <h4>Amanda Gonzales</h4>
+        <h4>Cerinne Olmedo</h4>
+        <h4>Raiden Ong</h4>
       </div>
 
-
-
-
-     <!-- bryce -->
-      <div class="tab-pane fade" id="bryce" role="tabpanel" aria-labelledby="bryce-tab">
-        <h4>Aesthetics and Design (bryce olmedo)</h4>
-        <table class="table table-bordered text-center">
-          <thead>
-            <tr><th>Criteria</th><th colspan="5">Rating</th></tr>
-            <tr><th></th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th></tr>
-          </thead>
-          <tbody>
-            <tr><td>Color Scheme</td>
-              <td><input type="radio" name="color_bryce" value="1" required></td>
-              <td><input type="radio" name="color_bryce" value="2" required></td>
-              <td><input type="radio" name="color_bryce" value="3" required></td>
-              <td><input type="radio" name="color_bryce" value="4" required></td>
-              <td><input type="radio" name="color_bryce" value="5" required></td>
-            </tr>
-            <tr><td>Typography</td>
-              <td><input type="radio" name="typography_bryce" value="1" required></td>
-              <td><input type="radio" name="typography_bryce" value="2" required></td>
-              <td><input type="radio" name="typography_bryce" value="3" required></td>
-              <td><input type="radio" name="typography_bryce" value="4" required></td>
-              <td><input type="radio" name="typography_bryce" value="5" required></td>
-            </tr>
-          </tbody>
-        </table>
-
-        <h4>Code and Functionality (bryce olmedo)</h4>
-        <table class="table table-bordered text-center">
-          <thead>
-            <tr><th>Criteria</th><th colspan="5">Rating</th></tr>
-            <tr><th></th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th></tr>
-          </thead>
-          <tbody>
-            <tr><td>Functionality</td>
-              <td><input type="radio" name="functionality_bryce" value="1" required></td>
-              <td><input type="radio" name="functionality_bryce" value="2" required></td>
-              <td><input type="radio" name="functionality_bryce" value="3" required></td>
-              <td><input type="radio" name="functionality_bryce" value="4" required></td>
-              <td><input type="radio" name="functionality_bryce" value="5" required></td>
-            </tr>
-            <tr><td>Responsiveness</td>
-              <td><input type="radio" name="responsiveness_bryce" value="1" required></td>
-              <td><input type="radio" name="responsiveness_bryce" value="2" required></td>
-              <td><input type="radio" name="responsiveness_bryce" value="3" required></td>
-              <td><input type="radio" name="responsiveness_bryce" value="4" required></td>
-              <td><input type="radio" name="responsiveness_bryce" value="5" required></td>
-            </tr>
-          </tbody>
-        </table>
-
-        <h4>Comments and Feedback (bryce olmedo)</h4>
-        <form>
-          <textarea class="form-control mb-3" placeholder="Enter your comments here..." rows="4" required></textarea>
-          <button class="btn btn-primary" type="submit">Submit</button>
-        </form>
+      <div class="col-md-4 mt-3 mb-3">
+        <h2>Contact Us!</h2>
+        <h4>Email: gh9r.group2@gmail.com</h4>
       </div>
-
-      <!-- cerrinne -->
-      <div class="tab-pane fade" id="cerrinne" role="tabpanel" aria-labelledby="cerrinne-tab">
-        <h4>Aesthetics and Design (cerrinne olmedo)</h4>
-        <table class="table table-bordered text-center">
-          <thead>
-            <tr><th>Criteria</th><th colspan="5">Rating</th></tr>
-            <tr><th></th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th></tr>
-          </thead>
-          <tbody>
-            <tr><td>Color Scheme</td>
-              <td><input type="radio" name="color_cerrinne" value="1" required></td>
-              <td><input type="radio" name="color_cerrinne" value="2" required></td>
-              <td><input type="radio" name="color_cerrinne" value="3" required></td>
-              <td><input type="radio" name="color_cerrinne" value="4" required></td>
-              <td><input type="radio" name="color_cerrinne" value="5" required></td>
-            </tr>
-            <tr><td>Typography</td>
-              <td><input type="radio" name="typography_cerrinne" value="1" required></td>
-              <td><input type="radio" name="typography_cerrinne" value="2" required></td>
-              <td><input type="radio" name="typography_cerrinne" value="3" required></td>
-              <td><input type="radio" name="typography_cerrinne" value="4" required></td>
-              <td><input type="radio" name="typography_cerrinne" value="5" required></td>
-            </tr>
-          </tbody>
-        </table>
-
-        <h4>Code and Functionality (cerrinne olmedo)</h4>
-        <table class="table table-bordered text-center">
-          <thead>
-            <tr><th>Criteria</th><th colspan="5">Rating</th></tr>
-            <tr><th></th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th></tr>
-          </thead>
-          <tbody>
-            <tr><td>Functionality</td>
-              <td><input type="radio" name="functionality_cerrinne" value="1" required></td>
-              <td><input type="radio" name="functionality_cerrinne" value="2" required></td>
-              <td><input type="radio" name="functionality_cerrinne" value="3" required></td>
-              <td><input type="radio" name="functionality_cerrinne" value="4" required></td>
-              <td><input type="radio" name="functionality_cerrinne" value="5" required></td>
-            </tr>
-            <tr><td>Responsiveness</td>
-              <td><input type="radio" name="responsiveness_cerrinne" value="1" required></td>
-              <td><input type="radio" name="responsiveness_cerrinne" value="2" required></td>
-              <td><input type="radio" name="responsiveness_cerrinne" value="3" required></td>
-              <td><input type="radio" name="responsiveness_cerrinne" value="4" required></td>
-              <td><input type="radio" name="responsiveness_cerrinne" value="5" required></td>
-            </tr>
-          </tbody>
-        </table>
-
-        <h4>Comments and Feedback (cerrinne olmedo)</h4>
-        <form>
-          <textarea class="form-control mb-3" placeholder="Enter your comments here..." rows="4" required></textarea>
-          <button class="btn btn-primary" type="submit">Submit</button>
-        </form>
-      </div>
-
       
+      <div class="col-md-4 mt-3 mb-3">
+        <h2>Interested in joining the team?</h2>
+        <form>
+          <input type="email" name="joinTeam" id="inputJoinTeam" class="form-control" placeholder="Enter your email address">
+        </form>     
 
+        <br>
+        
+        <div class="d-grid">
+          <button class="btn btn-outline-light btn-block" type="button">Submit</button>
+        </div>
+      </div>
+      <h2 style="text-align: center;">&#169; Group 2 | 9-Ruby</h2>
+    </div>
+  </div>
 
-				<br>
-				
-				<div class="d-grid">
-					<button class="btn btn-outline-light btn-block" type="button">Submit</button>
-				</div>
-			</div>
-			<h2 style="text-align: center;">&#169; Group 2 | 9-Ruby</h2>
-		</div>
-		<script src="home.js"></script>
-	</div>			
+  <script src="rate.js"></script>
 
 </body>
 </html>
